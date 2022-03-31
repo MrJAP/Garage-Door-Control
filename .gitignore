@@ -175,3 +175,5 @@ $RECYCLE.BIN/
 *.exp
 *.lib
 *.vbw
+
+**/.vs/
