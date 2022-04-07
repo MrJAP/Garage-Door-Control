@@ -2,16 +2,11 @@
 
 using GarageDoorControl.Common;
 
-
-Console.WriteLine("Pick a number...");
-
-var userNumber = Console.ReadLine();
-
-var number = Convert.ToInt32(userNumber);
-var numberSquared = number * number;
-
-Console.WriteLine(numberSquared);
-
+Console.WriteLine("Please attach debugger and hit enter");
 Console.ReadLine();
+
+
+var x = new GpioTest();
+await x.ReadGpioPins();
 
 
