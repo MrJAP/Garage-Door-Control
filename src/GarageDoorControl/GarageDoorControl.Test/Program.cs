@@ -5,8 +5,12 @@ using GarageDoorControl.Common;
 Console.WriteLine("Please attach debugger and hit enter");
 Console.ReadLine();
 
+//var x = new GpioTest();
+//await x.ReadGpioPins();
 
-var x = new GpioTest();
-await x.ReadGpioPins();
+
+var y = new RelayTest();
+y.TurnAllRelaysOff();
+await y.ToggleRelay(1);
 
 
