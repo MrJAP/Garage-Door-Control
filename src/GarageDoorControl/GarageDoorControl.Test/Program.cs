@@ -9,8 +9,11 @@ Console.ReadLine();
 //await x.ReadGpioPins();
 
 
-var y = new RelayTest();
-y.TurnAllRelaysOff();
-await y.ToggleRelay(1);
+//var y = new RelayTest();
+//y.TurnAllRelaysOff();
+//await y.ToggleRelay(1);
+
+var z = new LcdTest();
+z.SendMessage("Hello World!");
 
 
